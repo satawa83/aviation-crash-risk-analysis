@@ -1,0 +1,170 @@
+                    AIRCRAFT RISK ANALYSIS BETWEEN 2018 to 2022
+Business understanding 
+
+    Future business expansion of aircraft as a blue print for both commercial and private enterprise, in order to achieve this considering number of factors to be considered for example type of aircraft and  potential risks over time
+
+    A company is expanding into aviation operation require expertise informed decision that guided by evidence based in relation to aircraft safety risks.
+
+General objective
+    To determining aircraft type with lowest risk of operation for commercial and private company
+
+Specific objectives
+
+   1.  To Identify aircraft_type with lowest and highest cases of fatalities
+   2.  To establish aircraft type with damage level
+   3.  To establish month with lowest and highest fatalities
+   4.  To establish location with lowest and highest fatalities
+  
+Data understanding
+    Data from Flight aviation was provided in ms Excel formatfor manipulation.It was only source that was provided with two thousand five hundred (2,500) rows and eight (8) columns.from first impression three(3) columns had missing values.
+    
+
+Data Preparation
+    Exploration of these data include loading and cleaning and analysis using statistical measures like measures of central tendancy, quality verification which help in deducing insight for informed recommendation and decison making.
+
+    Original columns was nameed was named in away that can not be comrehended easily by all stakeholder, therefore I manage to rename columns to name that anybody can understand.
+
+    Key cleaning steps performed:
+        Converted accident dates to proper datetime format
+        Extracted year, month, day of week
+        Handled missing values (NaT, nulls)
+        Standardized location and operator names
+        Prepared fields for time-series and geographic analysis
+
+Data Analysis (3 findings)
+    Data was analyzed using pandas methods and functions, it was important to note that columns have increase from eight to twelve this happen because splitting of accident date into years, month and days of the week these will helping in pinpoiting specific time for easy grouping  
+
+
+Data analysis
+    Aircraft_type had lowest and highest fatalities
+
+
+    Aircraft type by damage level
+
+
+
+    Fatalities per month
+
+
+    Location with lowest and Highest fatalities 
+
+
+Data Visulization (Graphys 3)
+    Aircraft_type had lowest cases of fatality
+
+
+
+
+
+
+
+
+
+Insight
+
+    Some aircraft types show higher severe damage rates
+        Accidents cluster in certain regions
+        Seasonal and weekly patterns exist
+        A small number of operators account for more severe incidents
+
+    By what percentage 
+        Reduce financial losses
+        Minimize fatal incidents
+        Choose safer aircraft types
+
+Recommendation
+
+    Prioritize aircraft types with historically low accident rates
+    Invest in newer aircraft models with modern safety systems
+    Consider manufacturer safety history as a procurement criterion
+    Avoid aircraft categories frequently linked to severe or fatal incidents
+
+        Prefer aircraft types with lower severe damage & fatality rates
+         Avoid high-risk operating regions where possible
+         Investigate safety history of aircraft operators
+         Consider seasonal risk in operational planning
+
+Next Steps
+        Consider seasonal risk in operational planning
+        I recommend comparison study of safety history in different regions so that skewdness and outliars are well catered for
+        More time to accident evalution in various continet
+
+
+# Aircraft Accident Analysis
+
+This project analyzes aircraft accident data with a focus on damage levels, fatalities, temporal patterns, and geographic distribution.
+
+## 📊 Visualizations
+
+### 1. Damage Level Heatmap
+
+The heatmap shows the distribution of damage levels for the top 20 aircraft types with the most accidents:
+
+![Damage Level Heatmap](damage_level_heatmap.png)
+
+**Key Insights:**
+- **Color Intensity**: Warmer colors (yellow/red) indicate higher accident counts
+- **Pattern Analysis**: Some aircraft types show consistent damage patterns
+- **Risk Assessment**: Helps identify aircraft types with frequent severe damage
+
+### 2. Fatalities Comparison
+
+This bar chart compares the top 5 aircraft types with the lowest and highest total fatalities:
+
+![Fatalities Comparison Chart](fatalities_comparison.png)
+
+**Key Insights:**
+- **Safety Assessment**: Identifies relatively safer aircraft types (blue bars)
+- **Risk Identification**: Highlights high-risk aircraft (magenta bars)
+- **Magnitude Comparison**: Shows dramatic differences in fatality counts
+
+### 3. Fatalities by Month
+
+This line chart shows fatalities distribution across months of the year:
+
+![Fatalities by Month](fatalities_by_month.png)
+
+**Key Insights:**
+- **Seasonal Patterns**: Identifies months with higher fatality rates
+- **Trend Analysis**: Shows cyclical patterns in accident severity
+- **Risk Planning**: Helps in seasonal safety planning
+
+### 4. Locations with Highest and Lowest Fatalities
+
+This dual bar chart compares locations with the highest and lowest fatality counts:
+
+![Locations Fatalities Comparison](locations_fatalities.png)
+
+**Key Insights:**
+- **Geographic Risk**: Identifies high-risk and low-risk locations
+- **Regional Analysis**: Shows geographic distribution of accident severity
+- **Safety Hotspots**: Highlights areas needing safety interventions
+
+## 📁 Project Structure
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+interactive tableau link < https://public.tableau.com/app/profile/mohamed.satawa/viz/AircraftRiskAnalysis_17698868548880/AIRCRAFTRISKANALYSIS?publish=yes >
