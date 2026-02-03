@@ -33,6 +33,8 @@ This bar chart compares the top 5 aircraft types with the lowest and highest tot
 
 ![Fatalities Comparison Chart](fatalities_comparison.png)
 
+
+
 insight, Some aircraft types are consistently involved in more severe fatal outcomes than others
 
 ### 2. Damage Level Heatmap
@@ -47,7 +49,7 @@ Insight, Damage level of Aircraft types with Destroyed, substantial damage count
 
 This line chart shows fatalities distribution across months of the year:
 
-![Fatalities by Month](fatalities_by_month.png)
+![Fatalities by Month](notebook\fatalities_by_month.png)
 
 Insight, Period of time in a year determine risk patterns, therefore there are relationship between fatalities and specific month of the year
 
