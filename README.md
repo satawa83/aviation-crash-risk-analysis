@@ -31,9 +31,7 @@ Data analysis and visualization
 
 This bar chart compares the top 5 aircraft types with the lowest and highest total fatalities:
 
-![Fatalities Comparison Chart](fatalities_comparison.png)
-
-
+![Fatalities Comparison Chart](notebook\images\fatalities_comparison.png)
 
 insight, Some aircraft types are consistently involved in more severe fatal outcomes than others
 
