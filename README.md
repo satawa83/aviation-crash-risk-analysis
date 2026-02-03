@@ -31,7 +31,7 @@ Data analysis and visualization
 
 This bar chart compares the top 5 aircraft types with the lowest and highest total fatalities:
 
-![Fatalities Comparison Chart](notebook\images\fatalities_comparison.png)
+![Fatalities Comparison Chart](images/fatalities_comparison.png)
 
 insight, Some aircraft types are consistently involved in more severe fatal outcomes than others
 
@@ -39,7 +39,7 @@ insight, Some aircraft types are consistently involved in more severe fatal outc
 
 The heatmap shows the distribution of damage levels for the top 20 aircraft types with the most accidents:
 
-![Damage Level Heatmap](damage_level_heatmap.png)
+![Damage Level Heatmap](images/damage_level_heatmap.png)
 
 Insight, Damage level of Aircraft types with Destroyed, substantial damage counts leads financial loss exposure, long downtime & repair costs respectively, while  Mostly minor damage shows survivable accidents
 
@@ -47,7 +47,7 @@ Insight, Damage level of Aircraft types with Destroyed, substantial damage count
 
 This line chart shows fatalities distribution across months of the year:
 
-![Fatalities by Month](notebook\fatalities_by_month.png)
+![Fatalities by Month](images/fatalities_by_month.png)
 
 Insight, Period of time in a year determine risk patterns, therefore there are relationship between fatalities and specific month of the year
 
@@ -55,7 +55,7 @@ Insight, Period of time in a year determine risk patterns, therefore there are r
 
 This dual bar chart compares locations with the highest and lowest fatality counts:
 
-![Locations Fatalities Comparison](locations_fatalities.png)
+![Locations Fatalities Comparison](images/top_locations_fatalities.png)
 
 Insight, Location of aircraft determine fatality case for example Mountain terrain
 
